@@ -27,6 +27,13 @@ uvicorn==0.23.2
 pandas==2.1.0
 fastapi==0.103.2
 ```
+## Code Architecture rules:
+
+- Use `abc`library to create abstract interfaces for communication between modules and allow dependency inversion.
+- Inject dependencies using `create` constructor method. The internal methods in the classes should only depende on abstract method, the actual implementation will vary depending on the injected dependency.
+- Only include meaningful comments, the code should be self explanatory.
+- This is no a final user framework, thus, docstring are not recommended, they will become a maintainability issue in the long term
+
 ## Installation
 
 Run `pip install -r requirements.txt`. It is recommended to use a virtual environment tool such as `venv` or `conda`.
