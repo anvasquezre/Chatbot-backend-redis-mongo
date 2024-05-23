@@ -1,0 +1,41 @@
+.
+├── app
+│   ├── main.py
+│   └── v1
+│       ├── handlers
+│       │   ├── sessions_handler_base.py
+│       │   └── sessions_handler.py
+│       ├── routers
+│       │   └── sessions_router.py
+│       └── v1.py
+├── core
+│   └── dtos
+│       ├── base_dto.py
+│       ├── messages_dto.py
+│       └── sessions_dto.py
+├── dockerfile
+├── EDA.ipynb
+├── README.md
+├── requirements.txt
+├── src
+│   ├── agents
+│   │   ├── agent_base.py
+│   │   ├── agent_langchain.py
+│   │   ├── __init__.py
+│   │   ├── prompts.py
+│   │   └── tools.py
+│   ├── __init__.py
+│   ├── session_repository
+│   │   ├── sesion_repository_mongo.py
+│   │   ├── session_repository_base.py
+│   │   └── session_repository_redis.py
+│   └── weather_api
+│       ├── __init__.py
+│       ├── open_weather_wrapper.py
+│       └── weather_api_base.py
+├── tree.txt
+└── utils
+    ├── custom_logger.py
+    └── settings.py
+
+11 directories, 27 files

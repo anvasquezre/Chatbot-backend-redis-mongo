@@ -1,0 +1,54 @@
+.
+├── backend
+│   ├── app
+│   │   ├── main.py
+│   │   └── v1
+│   │       ├── handlers
+│   │       │   ├── sessions_handler_base.py
+│   │       │   └── sessions_handler.py
+│   │       ├── routers
+│   │       │   └── sessions_router.py
+│   │       └── v1.py
+│   ├── core
+│   │   └── dtos
+│   │       ├── base_dto.py
+│   │       ├── messages_dto.py
+│   │       └── sessions_dto.py
+│   ├── dockerfile
+│   ├── EDA.ipynb
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── src
+│   │   ├── agents
+│   │   │   ├── agent_base.py
+│   │   │   ├── agent_langchain.py
+│   │   │   ├── __init__.py
+│   │   │   ├── prompts.py
+│   │   │   └── tools.py
+│   │   ├── __init__.py
+│   │   ├── session_repository
+│   │   │   ├── sesion_repository_mongo.py
+│   │   │   ├── session_repository_base.py
+│   │   │   └── session_repository_redis.py
+│   │   └── weather_api
+│   │       ├── __init__.py
+│   │       ├── open_weather_wrapper.py
+│   │       └── weather_api_base.py
+│   ├── test.py
+│   └── utils
+│       ├── custom_logger.py
+│       └── settings.py
+├── data
+│   └── images
+│       ├── Arch.jpg
+│       ├── Diagrams.drawio
+│       ├── Sequence_Diagram_REST.jpg
+│       └── Sequence_Diagram_WS.jpg
+├── docker-compose.yaml
+├── mongodb
+│   └── README.md
+├── redis
+│   └── README.md
+└── tree.txt
+
+16 directories, 35 files
